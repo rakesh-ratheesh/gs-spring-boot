@@ -9,6 +9,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
         String testPassword="123";
+        String api_token="abcgjstdjkjk";
         return "Hello from Spring Boot!";
     }   
 }
