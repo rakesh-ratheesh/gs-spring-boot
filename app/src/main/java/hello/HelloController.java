@@ -8,6 +8,7 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
+        String testPassword="123";
         return "Hello from Spring Boot!";
     }   
 }
